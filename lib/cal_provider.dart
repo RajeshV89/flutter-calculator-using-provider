@@ -55,7 +55,7 @@ class CalProvider extends ChangeNotifier {
     _inputbool ? _inputList.add(_inputDoubleValue) : _inputList.add(inputValue);
     _inputList.add(text);
     _inputValue = 0;
-    print(_inputList);
+    //print(_inputList);
 
     notifyListeners();
   }
